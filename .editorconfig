@@ -1,0 +1,19 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+# CR：Carriage Return，对应ASCII中转义字符\r，表示回车
+# LF：Linefeed，对应ASCII中转义字符\n，表示换行
+# CRLF：Carriage Return & Linefeed，\r\n，表示回车并换行
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
